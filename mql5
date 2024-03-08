@@ -1,0 +1,97 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                 Gold Trade Pro MT5               |
+//|                      Developer's Website: forexroboteasy.com     |
+//|                       Developed by: Forex Robot Easy Team        |
+//+------------------------------------------------------------------+
+
+// Global variables
+double riskPercentage = 2; // User-defined risk percentage
+double stopLossPercentage = 1; // User-defined stop-loss percentage
+double takeProfitPercentage = 2; // User-defined take-profit percentage
+
+// Function to identify and track daily support and resistance levels
+void IdentifySupportResistance()
+{
+    // Implementation logic for identifying support and resistance levels
+    // ...
+    // ...
+}
+
+// Function to determine breakout points based on support and resistance levels
+void DetermineBreakoutPoints()
+{
+    // Implementation logic for determining breakout points
+    // ...
+    // ...
+}
+
+// Function to execute trades automatically when a breakout occurs
+void ExecuteTrades()
+{
+    // Implementation logic for executing trades
+    // ...
+    // ...
+}
+
+// Function to calculate lot size based on user-defined risk percentage
+double CalculateLotSize()
+{
+    // Implementation logic for calculating lot size
+    // ...
+    // ...
+}
+
+// Function to manage open trades, including modifying stop-loss and take-profit levels
+void ManageOpenTrades()
+{
+    // Implementation logic for managing open trades
+    // ...
+    // ...
+}
+
+// Function to close trades automatically when price reaches user-defined levels
+void CloseTrades()
+{
+    // Implementation logic for closing trades
+    // ...
+    // ...
+}
+
+// Function to provide real-time updates on trade execution
+void UpdateTradeExecution()
+{
+    // Implementation logic for updating trade execution
+    // ...
+    // ...
+}
+
+// Function to generate trade reports
+void GenerateTradeReports()
+{
+    // Implementation logic for generating trade reports
+    // ...
+    // ...
+}
+
+// Function for error handling and exception management
+void ErrorHandling()
+{
+    // Implementation logic for error handling and exception management
+    // ...
+    // ...
+}
+
+// Main function
+void OnTick()
+{
+    IdentifySupportResistance();
+    DetermineBreakoutPoints();
+    ExecuteTrades();
+    double lotSize = CalculateLotSize();
+    ManageOpenTrades();
+    CloseTrades();
+    UpdateTradeExecution();
+    GenerateTradeReports();
+    ErrorHandling();
+}
